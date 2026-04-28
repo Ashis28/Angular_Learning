@@ -1,6 +1,7 @@
 import { Component,Input, input, computed, Output, EventEmitter, output} from '@angular/core';
 import { user } from './user.model';
 import { required } from '@angular/forms/signals';
+import { Card } from '../shared/card/card';
 
 // type user = {
 //     id : string;
@@ -10,7 +11,7 @@ import { required } from '@angular/forms/signals';
 
 @Component({
   selector: 'app-user',
-  imports: [],
+  imports: [Card],
   templateUrl: './user.html',
   styleUrl: './user.css',
 })

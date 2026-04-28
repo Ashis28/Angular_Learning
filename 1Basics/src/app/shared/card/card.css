@@ -1,0 +1,6 @@
+div {
+  border-radius: 6px;
+  background-color: rgb(179, 240, 240);
+  box-shadow: 0 1px 6px rgba(182, 127, 127, 0.1);
+  overflow: hidden;
+}
